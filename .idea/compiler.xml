@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="econet-utils" />
+        <module name="electronic-payments-api" />
+        <module name="electronic-payments-business" />
+        <module name="electronic-payments-dao" />
+        <module name="electronic-payments-domain" />
+        <module name="intelligent-network-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="econet-utils" target="1.8" />
+      <module name="electronic-payments-api" target="1.8" />
+      <module name="electronic-payments-business" target="1.8" />
+      <module name="electronic-payments-dao" target="1.8" />
+      <module name="electronic-payments-domain" target="1.8" />
+      <module name="intelligent-network-api" target="1.8" />
+      <module name="intelligent-network-parent" target="1.8" />
+      <module name="intelligent-network-reactor" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

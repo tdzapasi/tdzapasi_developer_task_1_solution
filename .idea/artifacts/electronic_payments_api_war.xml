@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="electronic-payments-api:war">
+    <output-path>$PROJECT_DIR$/electronic-payments-api/target</output-path>
+    <root id="archive" name="electronic-payments-api.war">
+      <element id="artifact" artifact-name="electronic-payments-api:war exploded" />
+    </root>
+  </artifact>
+</component>

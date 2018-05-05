@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/econet-utils/econet-utils.iml" filepath="$PROJECT_DIR$/econet-utils/econet-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/electronic-payments-api/electronic-payments-api.iml" filepath="$PROJECT_DIR$/electronic-payments-api/electronic-payments-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/electronic-payments-business/electronic-payments-business.iml" filepath="$PROJECT_DIR$/electronic-payments-business/electronic-payments-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/electronic-payments-dao/electronic-payments-dao.iml" filepath="$PROJECT_DIR$/electronic-payments-dao/electronic-payments-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/electronic-payments-domain/electronic-payments-domain.iml" filepath="$PROJECT_DIR$/electronic-payments-domain/electronic-payments-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intelligent-network-api/intelligent-network-api.iml" filepath="$PROJECT_DIR$/intelligent-network-api/intelligent-network-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intelligent-network-parent/intelligent-network-parent.iml" filepath="$PROJECT_DIR$/intelligent-network-parent/intelligent-network-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intelligent-network-reactor.iml" filepath="$PROJECT_DIR$/intelligent-network-reactor.iml" />
+    </modules>
+  </component>
+</project>
