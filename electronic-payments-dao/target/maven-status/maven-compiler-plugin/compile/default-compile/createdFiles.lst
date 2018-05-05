@@ -1,0 +1,6 @@
+com\econetwireless\epay\dao\subscriberrequest\api\SubscriberRequestDao.class
+com\econetwireless\epay\dao\config\TransactionManagementConfiguration.class
+com\econetwireless\epay\dao\config\EntityManagerConfiguration.class
+com\econetwireless\epay\dao\config\DaoConfiguration.class
+com\econetwireless\epay\dao\config\DataSourceConfiguration.class
+com\econetwireless\epay\dao\requestpartner\api\RequestPartnerDao.class
