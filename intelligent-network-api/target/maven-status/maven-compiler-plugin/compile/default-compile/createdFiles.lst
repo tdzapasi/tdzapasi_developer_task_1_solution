@@ -1,0 +1,6 @@
+com\econetwireless\in\soap\messages\BalanceResponse.class
+com\econetwireless\in\soap\service\IntelligentNetworkServiceImpl.class
+com\econetwireless\in\soap\messages\CreditRequest.class
+com\econetwireless\in\soap\publisher\IntelligentNetworkPublisher.class
+com\econetwireless\in\soap\service\IntelligentNetworkService.class
+com\econetwireless\in\soap\messages\CreditResponse.class
