@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="com.econetwireless.epay.api.rest.resources.EpayResourcesIT" time="6.242" errors="3" skipped="0">
+<testsuite tests="3" failures="0" name="com.econetwireless.epay.api.rest.resources.EpayResourcesIT" time="10.105" errors="3" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
@@ -65,7 +65,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.econetwireless.epay.api.rest.resources.EpayResourcesIT" name="shouldReturnStatusOkIfRequestsAreMoreThanOne" time="0.008">
+  <testcase classname="com.econetwireless.epay.api.rest.resources.EpayResourcesIT" name="shouldReturnStatusOkIfRequestsAreMoreThanOne" time="0.03">
     <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
@@ -143,8 +143,8 @@ Caused by: org.hibernate.HibernateException: Errors in named queries: Subscriber
 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:879)
 	... 59 more
 </error>
-    <system-out>2018-05-05 23:29:35,747 main WARN No Root logger was configured, creating default ERROR-level Root logger with Console appender
-23:29:39.960 [main] ERROR org.hibernate.internal.SessionFactoryImpl - HHH000177: Error in named query: SubscriberRequest.findByPartnerCode
+    <system-out>2018-05-06 01:26:30,062 main WARN No Root logger was configured, creating default ERROR-level Root logger with Console appender
+01:26:37.641 [main] ERROR org.hibernate.internal.SessionFactoryImpl - HHH000177: Error in named query: SubscriberRequest.findByPartnerCode
 org.hibernate.hql.internal.ast.QuerySyntaxException: Request is not mapped [select r from Request r where r.partnerCode = :partnerCode order by r.dateCreated desc ]
 	at org.hibernate.hql.internal.ast.QuerySyntaxException.generateQueryException(QuerySyntaxException.java:79) ~[hibernate-core-5.0.6.Final.jar:5.0.6.Final]
 	at org.hibernate.QueryException.wrapWithQueryString(QueryException.java:103) ~[hibernate-core-5.0.6.Final.jar:5.0.6.Final]
@@ -231,7 +231,7 @@ Caused by: org.hibernate.hql.internal.ast.QuerySyntaxException: Request is not m
 	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:262) ~[hibernate-core-5.0.6.Final.jar:5.0.6.Final]
 	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:190) ~[hibernate-core-5.0.6.Final.jar:5.0.6.Final]
 	... 68 more
-23:29:39.989 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@6f9ad11c] to prepare test instance [com.econetwireless.epay.api.rest.resources.EpayResourcesIT@4b2d44bc]
+01:26:37.672 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@6f9ad11c] to prepare test instance [com.econetwireless.epay.api.rest.resources.EpayResourcesIT@4b2d44bc]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-4.3.5.RELEASE.jar:4.3.5.RELEASE]
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83) ~[spring-test-4.3.5.RELEASE.jar:4.3.5.RELEASE]
@@ -445,7 +445,7 @@ Caused by: org.hibernate.HibernateException: Errors in named queries: Subscriber
 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:879)
 	... 59 more
 </error>
-    <system-out>23:29:40.559 [main] ERROR org.hibernate.internal.SessionFactoryImpl - HHH000177: Error in named query: SubscriberRequest.findByPartnerCode
+    <system-out>01:26:38.540 [main] ERROR org.hibernate.internal.SessionFactoryImpl - HHH000177: Error in named query: SubscriberRequest.findByPartnerCode
 org.hibernate.hql.internal.ast.QuerySyntaxException: Request is not mapped [select r from Request r where r.partnerCode = :partnerCode order by r.dateCreated desc ]
 	at org.hibernate.hql.internal.ast.QuerySyntaxException.generateQueryException(QuerySyntaxException.java:79) ~[hibernate-core-5.0.6.Final.jar:5.0.6.Final]
 	at org.hibernate.QueryException.wrapWithQueryString(QueryException.java:103) ~[hibernate-core-5.0.6.Final.jar:5.0.6.Final]
@@ -532,7 +532,7 @@ Caused by: org.hibernate.hql.internal.ast.QuerySyntaxException: Request is not m
 	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:262) ~[hibernate-core-5.0.6.Final.jar:5.0.6.Final]
 	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:190) ~[hibernate-core-5.0.6.Final.jar:5.0.6.Final]
 	... 68 more
-23:29:40.566 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@6f9ad11c] to prepare test instance [com.econetwireless.epay.api.rest.resources.EpayResourcesIT@31edeac]
+01:26:38.550 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@6f9ad11c] to prepare test instance [com.econetwireless.epay.api.rest.resources.EpayResourcesIT@31edeac]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-4.3.5.RELEASE.jar:4.3.5.RELEASE]
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83) ~[spring-test-4.3.5.RELEASE.jar:4.3.5.RELEASE]
@@ -746,7 +746,7 @@ Caused by: org.hibernate.HibernateException: Errors in named queries: Subscriber
 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:879)
 	... 59 more
 </error>
-    <system-out>23:29:41.058 [main] ERROR org.hibernate.internal.SessionFactoryImpl - HHH000177: Error in named query: SubscriberRequest.findByPartnerCode
+    <system-out>01:26:39.285 [main] ERROR org.hibernate.internal.SessionFactoryImpl - HHH000177: Error in named query: SubscriberRequest.findByPartnerCode
 org.hibernate.hql.internal.ast.QuerySyntaxException: Request is not mapped [select r from Request r where r.partnerCode = :partnerCode order by r.dateCreated desc ]
 	at org.hibernate.hql.internal.ast.QuerySyntaxException.generateQueryException(QuerySyntaxException.java:79) ~[hibernate-core-5.0.6.Final.jar:5.0.6.Final]
 	at org.hibernate.QueryException.wrapWithQueryString(QueryException.java:103) ~[hibernate-core-5.0.6.Final.jar:5.0.6.Final]
@@ -833,7 +833,7 @@ Caused by: org.hibernate.hql.internal.ast.QuerySyntaxException: Request is not m
 	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:262) ~[hibernate-core-5.0.6.Final.jar:5.0.6.Final]
 	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:190) ~[hibernate-core-5.0.6.Final.jar:5.0.6.Final]
 	... 68 more
-23:29:41.063 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@6f9ad11c] to prepare test instance [com.econetwireless.epay.api.rest.resources.EpayResourcesIT@75361cf6]
+01:26:39.289 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@6f9ad11c] to prepare test instance [com.econetwireless.epay.api.rest.resources.EpayResourcesIT@75361cf6]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-4.3.5.RELEASE.jar:4.3.5.RELEASE]
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83) ~[spring-test-4.3.5.RELEASE.jar:4.3.5.RELEASE]

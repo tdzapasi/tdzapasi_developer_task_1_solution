@@ -14,7 +14,7 @@ import javax.xml.ws.BindingType;
 import javax.xml.ws.soap.SOAPBinding;
 
 /**
- * Created by tnyamakura on 17/3/2017.
+ * Created by tnyamakura on 17/3/2017.A
  */
 @BindingType(value = SOAPBinding.SOAP11HTTP_BINDING)
 @WebService(endpointInterface = "com.econetwireless.in.soap.service.IntelligentNetworkService",

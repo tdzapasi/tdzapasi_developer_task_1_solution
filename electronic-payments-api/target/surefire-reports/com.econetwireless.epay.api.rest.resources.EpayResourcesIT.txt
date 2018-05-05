@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.econetwireless.epay.api.rest.resources.EpayResourcesIT
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 6.208 sec <<< FAILURE!
-shouldReturnStatusOkIfRequestsAreMoreThanOne(com.econetwireless.epay.api.rest.resources.EpayResourcesIT)  Time elapsed: 0.008 sec  <<< ERROR!
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 10.014 sec <<< FAILURE!
+shouldReturnStatusOkIfRequestsAreMoreThanOne(com.econetwireless.epay.api.rest.resources.EpayResourcesIT)  Time elapsed: 0.03 sec  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
