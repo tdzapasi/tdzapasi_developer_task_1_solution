@@ -1,0 +1,10 @@
+com\econetwireless\epay\api\webinitialisers\EpayApiWebAppInitializer.class
+com\econetwireless\epay\api\rest\resources\EpayResource.class
+com\econetwireless\epay\api\aspects\RequestInterceptor.class
+com\econetwireless\epay\api\rest\messages\TransactionsResponse.class
+com\econetwireless\epay\api\config\EpayApiAspectConfig.class
+com\econetwireless\epay\api\processors\api\EpayRequestProcessor.class
+com\econetwireless\epay\api\config\EpayApiWebConfig.class
+com\econetwireless\epay\api\processors\impl\EpayRequestProcessorImpl.class
+com\econetwireless\epay\api\processors\api\ReportingProcessor.class
+com\econetwireless\epay\api\processors\impl\ReportingProcessorImpl.class
