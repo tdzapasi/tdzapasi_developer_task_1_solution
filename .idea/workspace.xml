@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="080a5f5f-01a3-452a-a825-db69b9907f06" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/electronic-payments-api/src/main/java/com/econetwireless/epay/api/rest/resources/EpayResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/electronic-payments-api/src/main/java/com/econetwireless/epay/api/rest/resources/EpayResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intelligent-network-api/src/main/java/com/econetwireless/in/soap/service/IntelligentNetworkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/intelligent-network-api/src/main/java/com/econetwireless/in/soap/service/IntelligentNetworkService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/intelligent-network-api/target/" />
@@ -75,11 +75,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EpayResource.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EpayResource.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/electronic-payments-api/src/main/java/com/econetwireless/epay/api/rest/resources/EpayResource.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntelligentNetworkService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/intelligent-network-api/src/main/java/com/econetwireless/in/soap/service/IntelligentNetworkService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -108,6 +117,7 @@
         <option value="$PROJECT_DIR$/electronic-payments-business/src/main/java/com/econetwireless/epay/business/services/impl/EnquiriesServiceImpl.java" />
         <option value="$PROJECT_DIR$/econet-utils/src/main/java/com/econetwireless/utils/enums/ResponseCode.java" />
         <option value="$PROJECT_DIR$/electronic-payments-api/src/main/java/com/econetwireless/epay/api/rest/resources/EpayResource.java" />
+        <option value="$PROJECT_DIR$/intelligent-network-api/src/main/java/com/econetwireless/in/soap/service/IntelligentNetworkService.java" />
       </list>
     </option>
   </component>
@@ -245,6 +255,16 @@
             <path>
               <item name="intelligent-network-reactor" type="b2602c69:ProjectViewProjectNode" />
               <item name="tdzapasiProjectEconet" type="462c0819:PsiDirectoryNode" />
+              <item name="intelligent-network-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="soap" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intelligent-network-reactor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tdzapasiProjectEconet" type="462c0819:PsiDirectoryNode" />
               <item name="intelligent-network-parent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -343,12 +363,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525551592971</updated>
-      <workItem from="1525551599779" duration="5018000" />
+      <workItem from="1525551599779" duration="5603000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5018000" />
+    <option name="totallyTimeSpent" value="5603000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -447,6 +467,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intelligent-network-api/src/main/java/com/econetwireless/in/soap/service/IntelligentNetworkService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
         </state>
       </provider>
     </entry>
