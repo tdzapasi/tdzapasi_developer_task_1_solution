@@ -1,0 +1,15 @@
+Bugs fixed
+
+1 line 13 MobileNumberUtils class converting Logger logger to static 
+2 line 42 replaced @PreInsert with @PrePersist on SubscriberRequest java file
+3 removed this(super) on line 16 in PartnerCodeValidatorImpl java file
+4 corrected line 38 and 41 by replacing persist and update with save in CreditServiceImpl java file
+5 corrected line 36 and 39 by replacing persist and update with save in EnquiriesServiceImpl java file
+6 corrected line 10 in econet-utils enums ResponseCode java file by assigning code to this.code that is this.code=code
+7 Autowired EpayRequestProcessor and ReportingProcessor in line 19 and line 22 on electronic payments api epayResouces java file
+8 fixed @WebParam parameters in line 17 in intelligent-network-api service IntelligentNetworkService java file
+9 applied the basic webservice binding SOAP11 from SOAP12 in line 19 in intelligent-network-api service IntelligentNetworkServiceImpl java file
+10 added @PathVariable(partnerCode) in line 27 Epay resource in EpayResource java file
+11 replaced Request entity with request entity in SubscriberRequest.java file on line 13 under electronic-payments-domain
+12 added Unit Test for the code in module electronic-payments-business in the java files CreditServiceImplTest, EnquireServiceImplTest and PartnerCodeValidatorServiceImplTest
+13 successfully ran the embedded jetty in module electronic-payments-api with maven jetty:run
